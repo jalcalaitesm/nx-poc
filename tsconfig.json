@@ -35,6 +35,9 @@
     },
     {
       "path": "./ui"
+    },
+    {
+      "path": "./angular-demo-e2e"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "declarationMap": true,
-    "emitDeclarationOnly": true,
-    "importHelpers": true,
+    "composite": false,
+    "importHelpers": false,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["dom", "es2022"],
     "module": "esnext",
     "moduleResolution": "bundler",
     "noEmitOnError": true,
